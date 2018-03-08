@@ -1,20 +1,9 @@
 .slate {
   background-color: #222;
   height: 80vh;
-  display: grid;
-  padding-right: 5vw;
-  grid-template-columns: 10vw 80vw 10vw;
-  grid-template-rows: 10vh 80vh 10vh;
-  grid-template-areas: "bondcs links links" "innerSlate innerSlate innerSlate" ". . ."; }
-
-.innerSlate {
-  grid-area: innerSlate;
-  background-color: #222;
-  display: grid;
-  margin-right: 5vw;
-  padding-right: 5vw;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 30vh 30vh 20vh;
-  grid-template-areas: ". personalBlock sheddBlock ." ". socialBlock lmbrBlock ." " . . . .";
-  grid-column-gap: 20px;
-  grid-row-gap: 20px; }
+  -webkit-box-shadow: 5px 8px 15px -5px #424145;
+  -moz-box-shadow: 5px 8px 15px -5px #424145;
+  box-shadow: 5px 8px 15px -5px #424145;
+  transition: all 0.4s ease-out;
+  z-index: 1;
+  border-radius: 2px; }

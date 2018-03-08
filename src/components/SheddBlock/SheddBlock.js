@@ -3,9 +3,7 @@ import './SheddBlock.css';
 
 const SheddBlock = () => (
   <div className="sheddBlock">
-    <p>
-      Fishin Shedd Website image and link goes here
-    </p>
+    <img src="/img/shedd.jpg" />
   </div>
 );
 

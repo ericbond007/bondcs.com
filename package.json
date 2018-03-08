@@ -4,10 +4,12 @@
   "private": true,
   "dependencies": {
     "animate-sass": "^0.8.2",
+    "bulma": "^0.6.2",
     "node-sass-chokidar": "^0.0.3",
     "npm-run-all": "^4.1.2",
     "react": "^16.2.0",
     "react-animation-components": "^2.1.1",
+    "react-bulma": "^0.0.1",
     "react-dom": "^16.2.0",
     "react-ga": "^2.4.1",
     "react-helmet": "^5.2.0",

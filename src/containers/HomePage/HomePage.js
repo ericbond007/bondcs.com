@@ -8,17 +8,9 @@ import { FadeInOut, Stagger } from 'react-animation-components';
 class HomePage extends Component {
   render() {
     return (
-      <div className="innerSlate">
-        <div className="personalBlock">
-        <FadeInOut in className="personalBlock">
+      <div>
           <PersonalBlock />
-        </FadeInOut>
-      </div>
-      <div className="sheddBlock">
-        <FadeInOut in>
           <SheddBlock />
-        </FadeInOut>
-      </div>
         <SocialBlock />
         <LMBRBlock />
       </div>

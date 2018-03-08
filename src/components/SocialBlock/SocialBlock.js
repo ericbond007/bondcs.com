@@ -4,7 +4,7 @@ import './SocialBlock.css';
 const SocialBlock = () => (
   <div className="socialBlock">
     <p>
-      Fishin social Website image and link goes here
+      Social Media Links go here
     </p>
   </div>
 );
