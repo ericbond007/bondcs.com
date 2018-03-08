@@ -1,0 +1,33 @@
+{
+  "name": "bondcs.com",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "animate-sass": "^0.8.2",
+    "node-sass-chokidar": "^0.0.3",
+    "npm-run-all": "^4.1.2",
+    "react": "^16.2.0",
+    "react-animation-components": "^2.1.1",
+    "react-dom": "^16.2.0",
+    "react-ga": "^2.4.1",
+    "react-helmet": "^5.2.0",
+    "react-lazyload": "^2.3.0",
+    "react-overdrive": "^0.0.9",
+    "react-scripts": "1.1.1",
+    "react-transition-group": "^2.2.1",
+    "react-typekit": "^1.1.2",
+    "sass": "^1.0.0-beta.5.2",
+    "sass-loader": "^6.0.6",
+    "styled-components": "^3.1.6"
+  },
+  "scripts": {
+    "startjs": "react-scripts start",
+    "start": "npm-run-all -p watchcss startjs",
+    "buildcss": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/",
+    "watchcss": "npm run buildcss && node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o   src/ --watch --recursive",
+    "buildjs": "react-scripts build ",
+    "build": "npm-run-all -p buildcss buildjs",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

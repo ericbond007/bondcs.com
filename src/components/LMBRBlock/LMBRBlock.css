@@ -1,0 +1,6 @@
+.lmbrBlock {
+  border: solid 1px #000;
+  grid-area: lmbrBlock; }
+
+.lmbrBlock p {
+  color: #fff; }
