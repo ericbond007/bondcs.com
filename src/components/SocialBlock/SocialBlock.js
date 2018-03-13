@@ -1,10 +1,15 @@
 import React from 'react';
 import './SocialBlock.css';
+import FontAwesomeIcon from '@fortawesome/react-fontawesome'
+
 
 const SocialBlock = () => (
   <div className="socialBlock">
     <p>
-      Social Media Links go here
+      Github
+    </p>
+    <p>
+      Facebook
     </p>
   </div>
 );

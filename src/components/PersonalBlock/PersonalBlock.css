@@ -4,3 +4,7 @@
 
 .personalBlock p {
   color: #fff; }
+
+.imageCircle {
+  border-radius: 50%;
+  width: 30%; }

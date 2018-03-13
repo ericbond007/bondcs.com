@@ -3,8 +3,9 @@ import './PersonalBlock.css';
 
 const PersonalBlock = () => (
   <div className="">
+    <img src="/img/selfie.jpg" className="imageCircle" />
     <p>
-      Personal Info Goes Here
+    Eric Bond, Founder
     </p>
   </div>
 );
