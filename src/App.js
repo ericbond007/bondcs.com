@@ -6,7 +6,7 @@ import './App.css';
 import './bulma.css';
 
 const App = () => (
-  <div>
+  <div className="slatecontainer">
     <Slate>
       <Route path="/" exact component={HomePage} />
     </Slate>

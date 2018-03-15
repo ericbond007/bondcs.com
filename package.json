@@ -1,10 +1,9 @@
 {
   "name": "bondcs.com",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
+  "homepage": "https://bondcs.com/",
   "dependencies": {
-    "@fortawesome/fontawesome": "^1.1.4",
-    "@fortawesome/react-fontawesome": "^0.0.17",
     "animate-sass": "^0.8.2",
     "bulma": "^0.6.2",
     "node-sass-chokidar": "^0.0.3",
@@ -31,6 +30,8 @@
     "watchcss": "npm run buildcss && node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o   src/ --watch --recursive",
     "buildjs": "react-scripts build ",
     "build": "npm-run-all -p buildcss buildjs",
+    "deploy": "aws s3 sync build/ s3://bondcs.com && aws s3 sync build/ s3://www.bondcs.com",
+    "dd": "yarn build && yarn deploy",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }

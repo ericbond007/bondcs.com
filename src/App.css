@@ -5,3 +5,9 @@
   background-color: #222;
   min-height: 100%;
   color: white; }
+
+.hoverEffect {
+  transition: all 0.4s ease-out; }
+
+.hoverEffect:hover {
+  opacity: .75; }
