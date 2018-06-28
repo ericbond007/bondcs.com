@@ -17,7 +17,7 @@ class Slate extends Component {
   }
   render() {
     return (
-      <div className="slate" style={{margin: '5vw', overflow: 'hidden' }}>
+      <div className="slate"> 
 <div className="tile is-ancestor">
   <div className="tile is-parent">
     <article className="tile is-child is-12">

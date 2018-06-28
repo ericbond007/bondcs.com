@@ -1,19 +1,9 @@
+
+
 .slate {
-  height: 80vh;
 
-  -webkit-box-shadow: 5px 8px 15px -5px rgba(66,65,69,1);
--moz-box-shadow: 5px 8px 15px -5px rgba(66,65,69,1);
-box-shadow: 5px 8px 15px -5px rgba(66,65,69,1);
-
-  transition: all 0.4s ease-out;
-  z-index: 1;
-  border: 13px solid;
-  border-color: black;
-  border-radius: .5rem;
-  border-style: inset;
 background-color: rgba(0, 0, 0, 1);
   background-position: center center, 0 0;
-
   background-image: repeating-linear-gradient(-45deg, 
   rgba(255, 255, 255, 0) 30%, 
   rgba(255, 255, 255, 0) 36%, 
@@ -32,7 +22,15 @@ background-color: rgba(0, 0, 0, 1);
 box-shadow: 5px 8px 15px -5px rgba(66,65,69,1);
 }
 
-
-.slatecontainer {
-
+@media only screen and (min-width: 900px) {
+  .slate {
+    margin: 5vw;
+    height: 80vh;
+    transition: all 0.4s ease-out;
+    z-index: -1;
+    border: 13px solid;
+    border-color: black;
+    border-radius: .5rem;
+    border-style: inset;
+  }
 }

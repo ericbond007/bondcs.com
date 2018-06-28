@@ -1,14 +1,4 @@
 .slate {
-  height: 80vh;
-  -webkit-box-shadow: 5px 8px 15px -5px #424145;
-  -moz-box-shadow: 5px 8px 15px -5px #424145;
-  box-shadow: 5px 8px 15px -5px #424145;
-  transition: all 0.4s ease-out;
-  z-index: 1;
-  border: 13px solid;
-  border-color: black;
-  border-radius: .5rem;
-  border-style: inset;
   background-color: black;
   background-position: center center, 0 0;
   background-image: repeating-linear-gradient(-45deg, rgba(255, 255, 255, 0) 30%, rgba(255, 255, 255, 0) 36%, rgba(255, 255, 255, 0) 42%, rgba(255, 255, 255, 0.01) 44%, rgba(255, 255, 255, 0.175) 45%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0) 100%), radial-gradient(ellipse farthest-corner, transparent, rgba(0, 0, 0, 0.2) 110%);
@@ -16,3 +6,14 @@
   -webkit-box-shadow: 5px 8px 15px -5px #424145;
   -moz-box-shadow: 5px 8px 15px -5px #424145;
   box-shadow: 5px 8px 15px -5px #424145; }
+
+@media only screen and (min-width: 900px) {
+  .slate {
+    margin: 5vw;
+    height: 80vh;
+    transition: all 0.4s ease-out;
+    z-index: -1;
+    border: 13px solid;
+    border-color: black;
+    border-radius: .5rem;
+    border-style: inset; } }
